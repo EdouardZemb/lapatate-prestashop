@@ -1,4 +1,65 @@
+/* 
+some modifications in css default
+*/
+
+#wrapper{
+    background : #fff !important;
+}
+
+
 /*
- * Custom code goes here.
- * A template should always ship with an empty custom.css
+ For Module HeroImage
  */
+
+
+.h600{
+    width: 100%;
+    height: 800px;
+    /* position: relative; */
+}
+.non_padding{
+    padding: 0 !important;
+}
+.non_margin{
+    margin: 0 auto !important;
+}
+
+/* row height 100% */
+.hero_row{
+    height: 100%;
+}
+
+/* for the col of texts et buttons */
+
+.hero_buts .vendeur_btn,
+.hero_buts .conso_btn{
+
+    color: #fff;
+
+}
+
+.hero_buts .vendeur_btn{
+    background-color: #93A603;
+}
+
+.hero_buts .conso_btn{
+    background-color: #F28705;
+}
+
+.hero_text_and_buts .hero_tilte h1{
+    text-transform: capitalize;
+    text-align: center;
+    font-size : 2em;
+}
+.hero_text_and_buts .disc1 h2{
+
+    text-transform: uppercase;
+    color: #93A603;
+    font-weight: 600;
+    text-align: center;
+    font-size : 2rem;
+}
+.hero_text_and_buts .disc2 h4{
+    /* text-transform: ; */
+    text-align: center;
+}

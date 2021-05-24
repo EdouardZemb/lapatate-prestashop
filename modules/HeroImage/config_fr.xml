@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>HeroImage</name>
+    <displayName><![CDATA[Hero Image]]></displayName>
+    <version><![CDATA[1.0.0]]></version>
+    <description><![CDATA[this module for display the hero image of the home page]]></description>
+    <author><![CDATA[Alali MOUAFAK]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to uninstall HeroImage ?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>
