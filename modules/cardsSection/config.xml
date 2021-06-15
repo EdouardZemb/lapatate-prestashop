@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>cardsSection</name>
+	<displayName><![CDATA[Cards Section]]></displayName>
+	<version><![CDATA[1.0.0]]></version>
+	<description><![CDATA[this module for display a section cardrs in the home page]]></description>
+	<author><![CDATA[Alali MOUAFAK]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>

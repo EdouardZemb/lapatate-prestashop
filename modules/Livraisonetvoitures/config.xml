@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>Livraisonetvoitures</name>
+	<displayName><![CDATA[Livrasion & voitres]]></displayName>
+	<version><![CDATA[1.0.0]]></version>
+	<description><![CDATA[afficher les sections livraison rapide et les voitures la patate]]></description>
+	<author><![CDATA[Alali MOUAFAK]]></author>
+	<tab><![CDATA[administration]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>

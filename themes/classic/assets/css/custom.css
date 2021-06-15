@@ -12,16 +12,65 @@ some modifications in css default
  */
 
 
-.h600{
-    width: 100%;
-    height: 800px;
-    /* position: relative; */
+.bg-green{
+    background-color: #93A603;
 }
+.bg-orange{
+    background-color: #F28705;
+}
+
+.h_75{
+    height: 75px;
+}
+
+.min_h_600{
+    height : 600px;
+}
+
+
+.h700{
+    width: 100%;
+    height: 700px;
+    /* position: relative; */
+    overflow: hidden;
+}
+.h_200{
+    height: 200px;
+}
+.h_300{
+    height:300px;
+}
+.h_400{
+    height: 400px;
+}
+.h_600 {
+    height: 600px;
+}
+
+.w_70{
+    width:70px;
+}
+
+.bg-cover{
+    background-size: cover;
+}
+
+.bg-position-center{
+    background-position: center;
+}
+
 .non_padding{
-    padding: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
 }
 .non_margin{
     margin: 0 auto !important;
+}
+
+.mb_15{
+    margin-bottom: -15px;
 }
 
 /* row height 100% */
@@ -62,4 +111,89 @@ some modifications in css default
 .hero_text_and_buts .disc2 h4{
     /* text-transform: ; */
     text-align: center;
+}
+
+.vege .veges_imgs{
+
+    width: 180px;
+    height: auto;
+    opacity: 0.8;
+
+}
+
+.vege .ml_30{
+    margin-left: -30px;
+}
+.vege .mr_30{
+    margin-right: -30px;
+}
+
+.half-circle {
+    width: 150px;
+    height: 75px; /* as the half of the width */
+    background-color: #f28705;
+    border-top-left-radius: 110px; 
+    border-top-right-radius: 110px;
+    border: 10px solid #f28705;
+    border-bottom: 0;
+    
+}
+
+.arrow {
+    border: solid snow;
+    border-width: 0 7px 7px 0;
+    display: inline-block;
+    padding: 10px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+
+
+  /* Moudule sectionValeurs  */
+
+
+  .valeur-container{
+    background-color: #fff;
+    width: 250px;
+    height: 250px;
+    margin: 75px auto;
+}
+.valeurs_p{
+    color:#000;
+}
+
+
+/* for module cards section  */
+.no-border{
+    border: unset;
+}
+.box_shadow{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.position_relative{
+    position: relative;
+}
+
+.bookmark_check_container{
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+.bookmark_check_container svg{
+    color : #93A603;
+}
+.ligne{
+    width: 3px;
+    height: 100%;
+    background-color: #93A603;
+    border-radius: 5px;
+}
+.haute_qualite{
+    writing-mode: vertical-rl;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    color: #F28705;
 }
